@@ -4,7 +4,7 @@
       <v-col cols="6">
         <vue-tel-input-vuetify
           v-model="myPhone"
-          :preferred-countries="['id', 'gb', 'ua', 'us']"
+          :preferred-countries="['id', 'gb', 'ca', 'us', 'ca']"
           :valid-characters-only="true"
           select-label="Code"
           @input="onInput"
